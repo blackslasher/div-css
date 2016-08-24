@@ -1,0 +1,160 @@
+/*box model*/
+/*font*/
+/*公共设置*/
+.commonWidth {
+  margin: 0 auto;
+  width: 1000px;
+}
+.i-icon {
+  background: url("../images/icon/sprite.png") no-repeat;
+}
+.i-icon-arrowDown2 {
+  position: absolute;
+  top: 14px;
+  right: 30px;
+  height: 7px;
+  width: 11px;
+  background-position: 0 0;
+}
+.i-icon-car {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  width: 23px;
+  height: 20px;
+  background-position: -38px 0;
+}
+/*头部*/
+/*头部上部分*/
+.header-topWrap {
+  height: 31px;
+  background: #f7f7f7;
+}
+.header-top {
+  font: 12px/31px "宋体";
+}
+.header-top a {
+  color: #666;
+}
+.header-topLeft {
+  position: relative;
+  float: left;
+}
+.header-topLeft .i-icon-star {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  left: 0;
+  top: 8px;
+  background-position: -23px 0;
+}
+.header-topLeft a {
+  padding-left: 19px;
+}
+.header-midWrap {
+  background: #1d7ad9;
+}
+.header-mid {
+  height: 85px;
+}
+.header-mid .logo {
+  margin-left: 39px;
+  margin-top: 13px;
+  width: 112px;
+  height: 59px;
+}
+.header-mid .searchForm {
+  margin-left: 185px;
+  margin-top: 22px;
+  line-height: 35px;
+  font-size: 0;
+}
+.header-mid .searchForm input {
+  width: 340px;
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+}
+.header-mid .searchForm button {
+  width: 70px;
+  height: 35px;
+  color: #fff;
+  background: #ff8c00;
+}
+.header-mid .myCart {
+  margin-left: 31px;
+  margin-top: 23px;
+  color: #fff;
+  line-height: 35px;
+  font-size: 0px;
+}
+.header-mid .myCart .showCart {
+  display: inline-block;
+  position: relative;
+  width: 87px;
+  height: 35px;
+  line-height: 35px;
+  font-family: "微软雅黑";
+  background: #ff8800;
+  text-indent: 40px;
+  border-right: 1px solid #e27a00;
+  font-size: 14px;
+}
+.header-mid .myCart .showNum {
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 35px;
+  font-size: 14px;
+  line-height: 35px;
+  font-family: "微软雅黑";
+  padding-right: 30px;
+  text-align: right;
+  background: #ff8800;
+  border-left: 1px solid #ff9c01;
+}
+.header-mid .myCart .showNum .i-icon-arrowDown1 {
+  position: absolute;
+  left: 33px;
+  top: 12px;
+  height: 12px;
+  width: 12px;
+  background-position: -1px -17px;
+}
+.header-bottomWrap {
+  background: #1369c0;
+  color: #fff;
+}
+.header-bottom {
+  height: 35px;
+}
+.header-bottom .nav li {
+  float: left;
+  font-size: 0;
+}
+.header-bottom .nav a {
+  width: 100px;
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
+.header-bottom .nav .cur {
+  background: #4593fd;
+}
+.header-bottom .sublist .item {
+  padding-left: 11px;
+  padding-top: 17px;
+  background: #4593fd;
+  padding-bottom: 17px;
+}
+.header-bottom .sublist dt a {
+  font-size: 12px;
+}
+.header-bottom .sublist dd a {
+  font-size: 12px;
+}
+.test {
+  font-size: 12px;
+}
