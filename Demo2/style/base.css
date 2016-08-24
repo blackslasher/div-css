@@ -19,6 +19,13 @@ body{line-height: 1;}
 a{text-decoration: none}
 a:hover{text-decoration: underline}
 button,input{border:none;}
+<<<<<<< HEAD
+body,button,input,select,textarea{
+    font:12px/1.5 "Helvetica Neue",Helvetica,tahoma,Arial;
+}
+
+=======
+>>>>>>> 7680a09bb8dc42edcb12cf5de7b1c715bb165598
 /* 文字排版 */
 .fz12{font-size:12px;}
 .fz14{font-size:14px;}
