@@ -19,5 +19,5 @@ Demo3
 css前缀有g-，m-，u-，i-，z-等
 g代表结构布局，m表示模块，u表示元件，i表示图标，z表示状态。
 (用m1表示首页模块，m2表示列表页模块,这里虽然能区分，但是不合理，不利于团队协作)
-更多网易css规范参考http://nec.netease.com/
+更多网易css规范参考http://nec.netease.com/ 
 
