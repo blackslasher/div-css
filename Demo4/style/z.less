@@ -1,0 +1,83 @@
+/*==========================================*/
+/*全局变量*/
+
+
+
+/*===========================================================*/
+
+
+/*定位相关*/
+
+.poa(@l,@t){
+  position: absolute;
+  left:@l;
+  top:@t;
+}
+
+/*绝对垂直居中定位*/
+.poa-cc(@w,@h){
+  position: absolute;
+  margin:auto;
+  left: 0;
+  top: 0;
+  bottom:0;
+  right: 0;
+}
+/*============================================================================*/
+/*布局相关*/
+
+.ma{
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.w(@w){
+  width:@w;
+}
+.h(@h){
+  height:@h;
+}
+.wh(@w,@h){
+  width: @w;
+  height: @h;
+}
+
+/*============================================================================*/
+
+/*文本相关*/
+
+//文字垂直居中
+.txt-ver(@h){
+  height: @h;
+  line-height: @h;
+}
+//文字省略号
+.txt-ellipse(){
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+//透明度
+.opa(@opacity: 80) {
+  opacity: @opacity / 100;
+  filter: ~"alpha(opacity=@{opacity})";
+}
+
+/*=================================================================================*/
+
+/*清除浮动*/
+.clearfix() {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+/*===========================================================*/

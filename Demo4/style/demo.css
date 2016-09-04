@@ -1,0 +1,186 @@
+.m7-person {
+  background: #ededef;
+}
+.m7-person .person-intro {
+  position: relative;
+  height: 2.52rem;
+  width: 100%;
+  background: #e44027;
+  text-align: center;
+}
+.m7-person .person-intro .portrait {
+  position: relative;
+  height: 1.8rem;
+}
+.m7-person .person-intro .portrait img {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 0.92rem;
+  height: 1.09rem;
+}
+.m7-person .person-intro .name {
+  line-height: .3rem;
+  text-align: center;
+  color: #fff;
+}
+.m7-person .person-intro .setting {
+  position: absolute;
+  right: .3rem;
+  top: .2rem;
+  font-size: 0.5rem;
+  color: #fff;
+}
+.m7-person .acount {
+  height: .85rem;
+  background: #727272;
+}
+.m7-person .acount ul {
+  height: .85rem;
+}
+.m7-person .acount li {
+  position: relative;
+  float: left;
+  width: 33.3333%;
+  padding-top: .1rem;
+  height: .75rem;
+  line-height: .3rem;
+  color: #fff;
+  text-align: center;
+  font-size: .2rem;
+}
+.m7-person .acount li::after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: .15rem;
+  width: 1px;
+  height: .55rem;
+  background: #fff;
+}
+.m7-person .acount li:last-child::after {
+  width: 0;
+}
+.m7-person .order-status {
+  border-bottom: 1px solid #d9d9d9;
+}
+.m7-person .order-status ul {
+  height: 1.77rem;
+}
+.m7-person .order-status li {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-top: 1.15rem;
+  text-align: center;
+}
+.m7-person .order-status li i {
+  position: absolute;
+  font-size: .5rem;
+  top: .2rem;
+  left: .4rem;
+}
+.m7-person .order-status li .num {
+  position: absolute;
+  right: .3rem;
+  top: .22rem;
+  width: .3rem;
+  height: .3rem;
+  line-height: .3rem;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.m7-person .allOrder {
+  line-height: .84rem;
+  height: .84rem;
+  background: #fff;
+  position: relative;
+  margin-bottom: .35rem;
+}
+.m7-person .allOrder h2 {
+  float: left;
+  margin-left: .34rem;
+}
+.m7-person .allOrder a {
+  float: right;
+  margin-right: .80rem;
+  width: 1.35rem;
+  color: #ccc;
+}
+.m7-person .allOrder .in {
+  position: absolute;
+  right: .17rem;
+  top: .25rem;
+  background: url("../images/7into.jpg") no-repeat;
+  background-size: .16rem .3rem;
+  width: .16rem;
+  height: .3rem;
+}
+.m7-person .myDetail li {
+  position: relative;
+  height: .85rem;
+  line-height: .85rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.m7-person .myDetail li h3 {
+  float: left;
+  margin-left: 1.05rem;
+}
+.m7-person .myDetail li .icon-address {
+  background: url("../images/7address.jpg") no-repeat;
+}
+.m7-person .myDetail li .icon-star {
+  background: url("../images/7star.jpg") no-repeat;
+}
+.m7-person .myDetail li .icon-footer {
+  background: url("../images/7footer.jpg") no-repeat;
+}
+.m7-person .myDetail li .icon-email {
+  background: url("../images/7email.jpg") no-repeat;
+}
+.m7-person .myDetail li .icon-logout {
+  background: url("../images/7close.jpg") no-repeat;
+  background-size: .34rem .34rem!important;
+}
+.m7-person .myDetail li .icon {
+  position: absolute;
+  left: .34rem;
+  top: .22rem;
+  width: .34rem;
+  height: .43rem;
+  background-size: .34rem .43rem;
+}
+.m7-person .myDetail li .into {
+  position: absolute;
+  right: .3rem;
+  top: .27rem;
+  width: .16rem;
+  height: .3rem;
+  background: url("../images/7into.jpg") no-repeat;
+  background-size: .16rem .3rem;
+}
+.m7-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: .5rem;
+  background: #727272;
+}
+.m7-footer li {
+  float: left;
+  width: 25%;
+  line-height: .5rem;
+  text-align: center;
+}
+.m7-footer li a {
+  display: block;
+  color: #fff;
+}

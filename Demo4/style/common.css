@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*全局设置*/
+body{font:12px/1.5 "微软雅黑";}
+.layout{max-width:10rem;}
+.m-layout{max-width:10rem;}
+/*全局设置 end*/
+/*全局顶部*/
+.m-headerWrap{height:0.72rem;}
+.m-header{position:fixed;left:0;top:0;z-index:2;height:0.72rem;width:100%;background:#727272;}
+.m-header h1{float:left;margin:0.09rem 0 0 0.37rem;}
+.m-header h1 img{width:0.23rem;height:0.53rem;}
+.m-header .mid{float:left;margin-left:0.17rem;}
+.m-header .mid li{float:left;}
+.m-header .mid a{display:block;height:0.72rem;line-height:0.72rem;padding:0 0.17rem;font-size:0.2rem;color:#fff;}
+.m-header .right{position:relative;float:right;margin-right:0.15rem;width:1.2rem;height:0.72rem;}
+.m-header .right a{position:absolute;top:0.24rem;width:0.22rem;height:0.22rem;font-size:0.22rem;color:#fff;}
+.m-header .login{left:0.14rem;}
+.m-header .cart{right:0.35rem;}
+/*全局顶部 end*/
+/*全局底部*/
+.m-footerWrap{height:0.48rem;}
+.m-footerFix{position:fixed;left:0;bottom:0;height:0.48rem;width:100%;background:#727272;}
+.m-footerFix li{float:left;width:25%;text-align:center;line-height:0.48rem;}
+.m-footerFix a{color:#fff;display:block;}
+/*全局底部 end*/
+/*介绍页面*/
+.m-story img,.m-jifen img,.m-member img{max-width:10rem;width:100%;}
+/*介绍页面 end*/

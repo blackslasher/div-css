@@ -1,0 +1,192 @@
+.m7-person{
+  background: #ededef;
+  .person-intro{
+    position: relative;
+    height: 2.52rem;
+    width: 100%;
+    background: #e44027;
+    text-align: center;
+    .portrait{
+      position: relative;
+      height: 1.8rem;
+      img{
+        position: absolute;
+        margin:auto;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 0.92rem;
+        height: 1.09rem;
+      }
+    }
+    .name{
+      line-height: .3rem;
+      text-align: center;
+      color:#fff;
+    }
+    .setting{
+      position: absolute;
+      right: .3rem;
+      top: .2rem;
+      font-size: 0.5rem;
+      color:#fff;
+    }
+  }
+  .acount{
+    height: .85rem;
+    background: #727272;
+    ul{
+      height: .85rem;
+    }
+
+    li{
+      position: relative;
+      float: left;
+      width: 33.3333%;
+      padding-top: .1rem;
+      height: .75rem;
+      line-height: .3rem;
+      color:#fff;
+      text-align: center;
+      font-size:.2rem;
+      &::after{
+        content:" ";
+        position: absolute;
+        right: 0;
+        top: .15rem;
+        width: 1px;
+        height: .55rem;
+        background: #fff;
+      }
+      &:last-child::after{
+        width: 0;
+      }
+    }
+  }
+  .order-status{
+    border-bottom:1px solid #d9d9d9;
+    ul{
+      height: 1.77rem;
+    }
+    li{
+      float: left;
+      position: relative;
+      width: 20%;
+      padding-top: 1.15rem;
+      text-align: center;
+      i{
+        position: absolute;
+        font-size: .5rem;
+        top: .2rem;
+        left: .4rem;
+      }
+      .num{
+        position: absolute;
+        right: .3rem;
+        top: .22rem;
+        width: .3rem;
+        height: .3rem;
+        line-height: .3rem;
+        text-align: center;
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius:50%;
+        border:1px solid red;
+      }
+    }
+  }
+  .allOrder{
+    line-height: .84rem;
+    height: .84rem;
+    background: #fff;
+    position: relative;
+    margin-bottom: .35rem;
+    h2{
+      float: left;
+      margin-left: .34rem;  }
+    a{
+      float: right;
+      margin-right:.80rem;
+      width: 1.35rem;
+      color:#ccc;
+    }
+    .in{
+      position: absolute;
+      right: .17rem;
+      top: .25rem;
+      background: url("../images/7into.jpg") no-repeat;
+      background-size: .16rem .3rem;
+      width: .16rem;
+      height: .3rem;
+    }
+  }
+  .myDetail{
+    li{
+      position: relative;
+      height: .85rem;
+      line-height: .85rem;
+      background: #fff;
+      border-bottom:1px solid #ccc;
+      h3{
+        float: left;
+        margin-left: 1.05rem;
+      }
+
+      .icon-address{
+        background: url("../images/7address.jpg") no-repeat;
+      }
+
+      .icon-star{
+        background: url("../images/7star.jpg") no-repeat;
+
+      }
+      .icon-footer{
+        background: url("../images/7footer.jpg") no-repeat;
+
+      }
+      .icon-email{
+        background: url("../images/7email.jpg") no-repeat;
+      }
+      .icon-logout{
+        background: url("../images/7close.jpg") no-repeat;
+        background-size: .34rem .34rem!important;
+      }
+      .icon{
+        position: absolute;
+        left: .34rem;
+        top: .22rem;
+        width: .34rem;
+        height: .43rem;
+        background-size: .34rem .43rem;
+      }
+      .into{
+        position: absolute;
+        right: .3rem;
+        top: .27rem;
+        width: .16rem;
+        height: .3rem;
+        background: url("../images/7into.jpg") no-repeat;
+        background-size: .16rem .3rem;
+      }
+    }
+  }
+}
+.m7-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: .5rem;
+  background: #727272;
+  li{
+    float: left;
+    width: 25%;
+    line-height: .5rem;
+    text-align: center;
+    a{
+      display: block;
+      color:#fff;
+    }
+  }
+}
